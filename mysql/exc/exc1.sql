@@ -8,3 +8,5 @@ create table booklist (
 	author varchar(100),
     price int
 );
+
+drop table booklist;
