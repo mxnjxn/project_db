@@ -179,4 +179,3 @@ insert into caffee (
     ,234
     ,'이순신'
 );
-select * from caffee;
