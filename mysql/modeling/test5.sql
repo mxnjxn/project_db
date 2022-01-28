@@ -18,13 +18,13 @@ CREATE TABLE IF NOT EXISTS `code` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION
 );
-
+alter table codeGroup add nationality varchar(50);
 insert into codeGroup (
 	seq
-    ,name 
+    ,nationality
     ) values (
-    'infra002'
-    ,'통신사'
+    'infra003'
+    ,'국적'
 );
 
 select * from codeGroup;
