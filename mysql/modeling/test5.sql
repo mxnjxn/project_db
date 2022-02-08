@@ -23,7 +23,7 @@ insert into codeGroup (
 	seq
     ,nationality
     ) values (
-    'infra003'
+    'infra004'
     ,'국적'
 );
 
